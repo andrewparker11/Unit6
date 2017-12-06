@@ -5,12 +5,12 @@
 dictionary = open('engmix.txt')
 
 i = 0
-y = 'b'
+x = 'b'
 for word in dictionary:
     length = len(word)
     if length > i:
         i = length
-        y = word
+        x = word
 
 print(i)
-print(y)
+print(x)
