@@ -11,3 +11,4 @@ for word in dictionary:
         i = length
 
 print(i)
+print(word)
