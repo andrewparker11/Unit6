@@ -4,7 +4,6 @@
 
 dictionary = open('engmix.txt')
 
-wordCount = 0
 i = 0
 for word in dictionary:
     length = len(word)
