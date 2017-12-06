@@ -6,7 +6,7 @@ dictionary = open('engmix.txt')
 
 wordCount = 0
 for word in dictionary:
-    if 'sis' in word:
+    if 'blime' in word:
         print(word.strip())
     wordCount += 1
 
