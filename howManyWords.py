@@ -1,15 +1,16 @@
 #Andrew Parker
 
-
 dictionary = open('engmix.txt')
 
-i = 0
-x = 'b'
+n = [0]*22
+
+i = 1
+x = 1
 for word in dictionary:
     length = len(word)
-    if length > i:
-        i = length
-        x = word
+    
+    n[length] = n[length] + 1
+    
+print(n)
 
-print(i)
-print(x)
+
