@@ -17,5 +17,5 @@ x = 1
 for num in n:
     if i<23:
         print('There are', n[i], 'words with', x,'letters')
-i = i+1
-x = x+1
+    i = i+1
+    x = x+1
