@@ -10,6 +10,6 @@ for line in dictionary:
     word.append(line.strip())
     
 if stuff in word:
-        print('True')
-    else: 
-        print('False')
+    print('True')
+else: 
+    print('False')
