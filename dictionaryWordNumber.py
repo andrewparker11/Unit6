@@ -4,7 +4,7 @@
 
 dictionary = open('engmix.txt')
 
-num = int(input('Enter a number: ')
+num = int(input('Enter a number: '))
 
 word = []
 
