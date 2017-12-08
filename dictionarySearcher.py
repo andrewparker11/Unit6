@@ -13,4 +13,4 @@ for line in dictionary:
 if stuff in word:
     print(stuff, 'is in the dictionary')
 else: 
-    print(stuff 'is not in the dictionary')
+    print(stuff, 'is not in the dictionary')
