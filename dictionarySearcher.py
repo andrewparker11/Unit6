@@ -1,4 +1,5 @@
 #Andrew Parker
+#Dec. 8, 2017
 
 dictionary = open('engmix.txt')
 
