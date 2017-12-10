@@ -11,4 +11,4 @@ word = []
 for line in dictionary:
     word.append(line.strip())
     
-print(word[num])
+print(word[num-1])
