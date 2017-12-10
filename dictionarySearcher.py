@@ -3,14 +3,14 @@
 
 dictionary = open('engmix.txt')
 
-stuff = input('Enter a word: ')
+w = input('Enter a word: ')
 
-word = []
+words = []
 
 for line in dictionary:
-    word.append(line.strip())
+    words.append(line.strip())
     
-if stuff in word:
-    print(stuff, 'is in the dictionary')
+if w in words:
+    print(w, 'is in the dictionary')
 else: 
-    print(stuff, 'is not in the dictionary')
+    print(w, 'is not in the dictionary')
