@@ -2,13 +2,11 @@
 #Dec. 8, 2017
 #Dictionary Word Number
 
-dictionary = open('engmix.txt')
+file = open('input.txt')
 
-num = int(input('Enter a number: '))
+file2 = []
 
-word = []
-
-for line in dictionary:
-    word.append(line.strip())
-    
-print(word[num-1])
+for line in file:
+    file2.append(line.strip())
+    file2 + '!'
+print(file2)
