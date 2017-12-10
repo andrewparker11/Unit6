@@ -42,3 +42,21 @@ for line in file:
     file2.append(line.strip())
     file2 + '!'
 print(file2)
+
+
+#Find word that has letter greatest amount of times
+dictionary = open('engmix.txt')
+
+letter = input('Enter a letter: ')
+
+words = []
+
+for line in dictionary:
+    words.append(line.strip())
+    
+for letter in words:
+    if  
+
+
+
+
