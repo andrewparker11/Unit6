@@ -1,6 +1,6 @@
 #Andrew Parker
 #Dec. 8, 2017
-
+"""
 #Dictionary Searcher
 dictionary = open('engmix.txt')
 
@@ -31,12 +31,10 @@ for line in dictionary:
     
 print(word[num-1])
 
-
+"""
 
 #File Exclamation Adder
 file = open('input.txt')
-
-print (file)
 
 file2 = []
 
@@ -46,6 +44,7 @@ for line in file:
 print(file2)
 
 
+"""
 #Find word that has letter greatest amount of times
 dictionary = open('engmix.txt')
 
@@ -59,6 +58,6 @@ for line in dictionary:
 for letter in words:
     if  
 
-
+"""
 
 
