@@ -1,10 +1,10 @@
 #Andrew Parker
 #Dec 7 2017
+#reverseFile.py
 
-dictionary = open('engmix.txt')
+stuff = open('input.txt')
 
 n = [0]*22
-
 
 for word in dictionary:
     length = len(word.strip())
