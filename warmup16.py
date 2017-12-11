@@ -11,8 +11,8 @@ words = []
 for line in dictionary:
     words.append(line.strip())
     
-
 for word in words:
-    if word[0] = a and word[-1] = p:
-        print word
+    if len(word) > 0:
+        if word[0] = 'a' and word[-1] = 'p':
+            print(word)
         
