@@ -39,8 +39,7 @@ file = open('input.txt')
 file2 = []
 
 for line in file:
-    file2.append(line.strip())
-    file2 + '!'
+    file2.append(line.strip()+"!")
 print(file2)
 
 
