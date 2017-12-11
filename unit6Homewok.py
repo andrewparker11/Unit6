@@ -36,6 +36,8 @@ print(word[num-1])
 #File Exclamation Adder
 file = open('input.txt')
 
+print (file)
+
 file2 = []
 
 for line in file:
