@@ -13,6 +13,6 @@ for line in dictionary:
     
 for word in words:
     if len(word) > 0:
-        if word[0] = 'a' and word[-1] = 'p':
+        if word[0] == 'a' and word[-1] == 'p':
             print(word)
         
