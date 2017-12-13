@@ -17,12 +17,34 @@ if word in words:
 else: 
     print(word, 'is not in the dictionary')
 
-#Program 3
-number = int(input('Enter a number: ')
+
+
+
 
 """
 
+#Program 3
+dictionary = open('engmix.txt')
 
+number = int(input('Enter a number: '))
+
+words = [] 
+
+for line in dictionary:
+    words.append(line.strip())
+
+for word in words:
+    if len(word) == number:
+        print(word)
+        break 
+
+
+
+
+
+
+
+"""
 #Program 2 
 dictionary = open('engmix.txt')
 
@@ -36,7 +58,7 @@ for word in words:
         if word[0] == 'r':
             print(word)
         
-    
+"""   
 
 
 """
