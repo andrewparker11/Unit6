@@ -45,6 +45,28 @@ for num in n:
 
 
 
+
+
+
+#Program 2 
+dictionary = open('engmix.txt')
+
+words = []
+amount = []
+
+for line in dictionary:
+    words.append(line.strip())
+
+for word in words:
+    if len(word) > 0:
+        if word[0] == 'r':
+            amount.append(word)
+
+print(len(amount))
+
+
+
+"""
 #Program 1 
 dictionary = open('engmix.txt')
 
@@ -58,23 +80,6 @@ for word in words:
         if word.count('p') == 2:
             print(word)
 
-
-"""
-#Program 2 
-dictionary = open('engmix.txt')
-
-words = []
-
-for line in dictionary:
-    words.append(line.strip())
-
-for word in words:
-    if len(word) > 0:
-        if word[0] == 'r':
-            print(word)
-        
-
-"""
 
 
 #Program 3
@@ -93,8 +98,6 @@ for word in words:
         break 
 
 
-
-
 #Program 5 
 
 dictionary = open('engmix.txt')
@@ -105,3 +108,5 @@ for line in dictionary:
     words.append(line.strip())
     
 print(words[len(words)/2])
+
+"""
