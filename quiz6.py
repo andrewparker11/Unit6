@@ -30,7 +30,7 @@ dictionary = open('engmix.txt')
 for word in dictionary:
      if len(word) > 0:
         if word[0] == 'r':
-print(word.stript())
+print(word.strip())
         
     
 
