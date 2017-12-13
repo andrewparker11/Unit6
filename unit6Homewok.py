@@ -38,44 +38,19 @@ print(word[num-1])
 #File Exclamation Adder
 file = open('input.txt')
 
-file2 = []
-
 for line in file:
-    file2.append(line.strip()+"!")
-print(file2)
+    print(line.strip() + '!')
 
 """
 
 #Find word that has letter greatest amount of times
-dictionary = open('engmix.txt')
+letter = input('Enter a letter: ').lower()
 
-letter = input('Enter a letter: ')
-
-words = []
-
-nums = []
-
-for line in dictionary:
-    words.append(line.strip())
-    
-for word in words:
-    g = word.count(letter)
-    nums.append(g)
-    
-highest = max(nums)
-
-counter = 0
-stahp = "no"
-
-while counter <= (len(nums)-1) and stahp != "yes":
-    h = nums[counter]
-    if h == highest:
-        stahp = "yes"
-    else:
-        counter += 1
-
-plop = words[counter]
-print(plop)
-    
+file = open('engmix.txt')
+winner = ''
+for line in file: 
+    if line.count(letter) > winner.count(letter): 
+        winner = line.strip() 
+print(winner)
 
 
