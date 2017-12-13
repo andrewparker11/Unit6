@@ -41,7 +41,7 @@ print(len(amount))
 
 
 
-"""
+
 #Program 1 
 dictionary = open('engmix.txt')
 
@@ -83,5 +83,3 @@ for line in dictionary:
     words.append(line.strip())
     
 print(words[len(words)/2])
-
-"""
