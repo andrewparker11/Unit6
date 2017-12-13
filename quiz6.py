@@ -26,12 +26,15 @@ number = int(input('Enter a number: ')
 #Program 2 
 dictionary = open('engmix.txt')
 
-for word in dictionary:
-    length = len(word.strip())
-    word2 = word.strip()
-    if length > 0:
+words = []
+
+for line in dictionary:
+    words.append(line.strip())
+
+for word in words:
+    if len(word) > 0:
         if word[0] == 'r':
-print(word2)
+            print(word)
         
     
 
