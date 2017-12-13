@@ -9,36 +9,16 @@ dictionary = open('engmix.txt')
 letter = int(input('Enter a letter: ')
 
 words = []
+amount = []
 
 for line in dictionary:
     words.append(line.strip())
     
 for word in words:
-    if word :
-        if word.count('p') == 2:
-            print(word)
+    if letter not in word:
+        amount.append(word)
 
-
-
-dictionary = open('engmix.txt')
-
-n = [0]*22
-
-
-for word in dictionary:
-    length = len(word.strip())
-    
-    n[length] = n[length] + 1
-    
-print(n)
-
-i = 0
-x = 1
-for num in n:
-    if i<23:
-        print('There are', n[i], 'words with', x,'letters')
-    i = i+1
-    x = x+1
+print(len(amount))
 
 """
 
