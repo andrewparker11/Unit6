@@ -13,7 +13,7 @@ for line in dictionary:
 for word in words:
     if word.count('c') == 3:
         if word.count('p') == 2:
-            print(word)
+            print(word,'have the letter c three times and the letter p two times)
 
 
 
