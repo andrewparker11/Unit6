@@ -43,11 +43,6 @@ for num in n:
 """
 
 
-
-
-
-
-
 #Program 2 
 dictionary = open('engmix.txt')
 
